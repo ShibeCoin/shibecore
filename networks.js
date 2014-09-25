@@ -20,7 +20,7 @@ exports.livenet = {
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
     timestamp: 1390280400,
-    bits: 504365040
+    bits: 504365040,
   },
   dnsSeeds: [
     'seed.reddcoin.com'
@@ -46,8 +46,10 @@ exports.testnet = {
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
     timestamp: 1399544585,
-    bits: 504365040
+    bits: 504365040,
   },
-  dnsSeeds: [],
+  dnsSeeds: [
+    'testnet-seed.reddcoin.com'
+  ],
   defaultClientPort: 55444
 };
