@@ -1,19 +1,15 @@
 {
-  "name": "reddcore",
-  "description": "Reddcoin Core Library in Javascript",
+  "name": "shibecore",
+  "description": "Shibecoin Core Library in Javascript",
   "version": "0.1.36",
   "author": {
-    "name": "Larry Ren",
-    "email": "ren@reddcoin.com"
+    "name": "SS",
+    "email": "shibe@shibecoin.io"
   },
   "contributors": [
     {
-      "name": "Andrew Groff",
-      "email": "andrew@reddcoin.com"
-    },
-    {
-      "name": "Mike Croteau",
-      "email": "mike@reddcoin.com"
+      "name": "SS",
+      "email": "shibe@shibecoin.io"
     },
     {
       "name": "Stephen Pair",
@@ -45,9 +41,9 @@
     }
   ],
   "keywords": [
-    "reddcoin",
-    "reddcore",
-    "rdd",
+    "shibecoin",
+    "shibecore",
+    "shibe",
     "bitcoin",
     "btc",
     "satoshi",
@@ -58,7 +54,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/reddcoin-project/reddcore.git"
+    "url": "https://github.com/ShibeCoin/shibecore"
   },
   "scripts": {
     "install": "node-gyp rebuild",
@@ -133,10 +129,10 @@
   "readmeFilename": "README.md",
   "gypfile": true,
   "bugs": {
-    "url": "https://github.com/reddcoin-project/reddcore/issues"
+    "url": "https://github.com/Shibecoin/shibecore/issues"
   },
-  "homepage": "https://github.com/reddcoin-project/reddcore",
-  "_id": "reddcore@0.1.32",
+  "homepage": "https://github.com/Shibecoin/shibecore",
+  "_id": "shibecore@0.1.32",
   "devDependencies": {
     "sinon": "^1.10.3",
     "express": "4.6.1",
