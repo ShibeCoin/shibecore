@@ -7,19 +7,19 @@ var hex = function(hex) {
 exports.livenet = {
   name: 'livenet',
   magic: hex('fbc0b6db'),
-  addressVersion: 61,
+  addressVersion: 125,
   privKeyVersion: 189,
   P2SHVersion: 5,
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('CCDEC174EBD4FA10314B3B9EF9CB8ADCF9AA87E57EC6AD0D0E3C3C5AD9E068B8'),
-    merkle_root: hex('FF79AF16A9FFEB1B826DE1EA7F24539A2FE3702FE987912B09072BC41DBC02B5'),
+    hash: hex('3e8be8030bcbb553f5b27823765fdb72b9c9bfc1a53233296b14a62f6ee2fff1'),
+    merkle_root: hex('edc5392be3a745e183b3f4a664777ec46d53204d4d98f057c1fb86ea79a95262'),
     height: 0,
-    nonce: 222583475,
+    nonce: 1100587,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1390280400,
+    timestamp: 1413242058,
     bits: 504365040
   },
   dnsSeeds: [
@@ -40,7 +40,7 @@ exports.testnet = {
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
     hash: hex('14D879BCBC6DB4A5F49B15AB710BD3F1DC1FF65361F10B3F6E58649C518DDB46'),
-    merkle_root: hex('FF79AF16A9FFEB1B826DE1EA7F24539A2FE3702FE987912B09072BC41DBC02B5'),
+    merkle_root: hex('2f6d5f73858c063526308f3e28a6fbb4268ec2f10cdef4ee2086d25e4d9ff111'),
     height: 0,
     nonce: 1403777,
     version: 1,
