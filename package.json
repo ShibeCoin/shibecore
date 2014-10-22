@@ -54,7 +54,7 @@
   "main": "bitcore.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShibeCoin/shibecore"
+    "url": "https://github.com/ShibeCoin/shibecore.git"
   },
   "scripts": {
     "install": "node-gyp rebuild",
