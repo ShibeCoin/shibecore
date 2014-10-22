@@ -23,7 +23,7 @@ exports.livenet = {
     bits: 504365040
   },
   dnsSeeds: [
-    'seed.reddcoin.com'
+    '162.248.243.195'
   ],
   defaultClientPort: 45444
 };
