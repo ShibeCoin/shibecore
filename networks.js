@@ -42,10 +42,10 @@ exports.testnet = {
     hash: hex('14D879BCBC6DB4A5F49B15AB710BD3F1DC1FF65361F10B3F6E58649C518DDB46'),
     merkle_root: hex('2f6d5f73858c063526308f3e28a6fbb4268ec2f10cdef4ee2086d25e4d9ff111'),
     height: 0,
-    nonce: 1403777,
+    nonce: 627818,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1399544585,
+    timestamp: 1411709187,
     bits: 504365040
   },
   dnsSeeds: [],
