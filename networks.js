@@ -39,8 +39,8 @@ exports.testnet = {
   hkeyPublicVersion: 0x043587cf,
   hkeyPrivateVersion: 0x04358394,
   genesisBlock: {
-    hash: hex('14D879BCBC6DB4A5F49B15AB710BD3F1DC1FF65361F10B3F6E58649C518DDB46'),
-    merkle_root: hex('2f6d5f73858c063526308f3e28a6fbb4268ec2f10cdef4ee2086d25e4d9ff111'),
+    hash: hex('C9CA299CD534CA86257EBC4BA1C83214844087FA5B199E57408D04B437605D17'),
+    merkle_root: hex('11f19f4d5ed28620eef4de0cf1c28e26b4fba6283e8f302635068c85735f6d2f'),
     height: 0,
     nonce: 627818,
     version: 1,
