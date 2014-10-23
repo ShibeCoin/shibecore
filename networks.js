@@ -25,7 +25,7 @@ exports.livenet = {
   dnsSeeds: [
     '162.248.243.195'
   ],
-  defaultClientPort: 5419
+  defaultClientPort: 45183
 };
 
 exports.mainnet = exports.livenet;
@@ -49,5 +49,5 @@ exports.testnet = {
     bits: 504365040
   },
   dnsSeeds: [],
-  defaultClientPort: 55444
+  defaultClientPort: 54183
 };
